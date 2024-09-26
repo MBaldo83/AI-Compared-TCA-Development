@@ -1,8 +1,13 @@
+## Setup 
+You need to Add The Composable Architecture as a dependency see [Getting Started](https://pointfreeco.github.io/swift-composable-architecture/main/documentation/composablearchitecture/gettingstarted)
+
+## Prompts
 Chat 4 - Swift Copilot - by Widenex
 
 ---------------------------
 Stage 1 - Craft The Prompt:
 
+```
 I want you to become my Expert Prompt Creator. Your goal is to help me craft the best possible prompt for my needs. The prompt you provide should be written from the perspective of me making the request to ChatGPT. Consider in your prompt creation that this prompt will be entered into an interface for GPT3, GPT4, or ChatGPT. The prompt will include instructions to write the output using my communication style. The process is as follows:
 
 1. You will generate the following sections:
@@ -29,11 +34,12 @@ Remember, the prompt we are creating should be written from the perspective of M
 Think carefully and use your imagination to create an amazing prompt for me. 
 
 Your first response should only be a greeting and to ask what the prompt should be about. 
-
+```
 
 --------------------------- INITIAL PROMPT - FAIL
 Stage 2 - Run the prompt:
 
+```
 You will act as an expert Swift developer specializing in The Composable Architecture (TCA) pattern. I need you to write Swift code for a SwiftUI feature using TCA that includes:
 A TextField where the user can input a topic.
 A Button that, when tapped, triggers an action to load questions related to the entered topic.
@@ -61,8 +67,10 @@ Examples of my communication style:
 
 "The prompt is about writing Swift code using the Architecture Pattern: The Composable Architecture."
 "The project should be focused on modularity and testability, no unnecessary complexity."
+```
 
 --------------------------- EDITED PROMPT
+```
 You will act as an expert Swift developer specializing in The Composable Architecture (TCA) pattern - https://github.com/pointfreeco/swift-composable-architecture 
 
 I need you to write Swift code for a SwiftUI feature using TCA that includes:
@@ -88,6 +96,7 @@ Ensure that:
 * You provide comments to explain each part of the architecture.
 * The code is concise, avoiding unnecessary complexity.
 * Do not include unit tests in the code. Return the complete code as a single file that can be copied directly and run in an existing XCode project
+```
 
 ---- RESULT
 
@@ -98,9 +107,3 @@ Compiled Immediately? - NO
 * Build Errors - 5
 Compiled after tweaks - Yes
 * 1 file changed, 5 insertions(+), 6 deletions(-)
-
-
-
-
-
-

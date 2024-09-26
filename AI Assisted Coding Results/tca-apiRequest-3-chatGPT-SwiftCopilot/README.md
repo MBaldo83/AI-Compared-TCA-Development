@@ -1,4 +1,11 @@
+## Setup 
+You need to Add The Composable Architecture as a dependency see [Getting Started](https://pointfreeco.github.io/swift-composable-architecture/main/documentation/composablearchitecture/gettingstarted)
+
+## Prompts
+
 Chat 3 - Swift Copilot - by Widenex
+
+```
 ---
 As a Principle iOS Engineer I want you to help me write functional Swift code that compiles.
 
@@ -27,10 +34,11 @@ Actually please take the Environment out of the QuestionFeature, and make it a s
 
 Now please provide the code in a single file containing the QuestionView, the QuestionFeature and the QuestionAPI
 
+```
+
 ---- RESULT
 -- Output
 Multiple code blocks
 Compiled Immediately? - Yes
 Compiled after tweaks - Yes
 Build Errors - 0
-

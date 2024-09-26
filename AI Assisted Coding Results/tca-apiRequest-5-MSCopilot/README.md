@@ -1,6 +1,13 @@
+## Setup 
+You need to Add The Composable Architecture as a dependency see [Getting Started](https://pointfreeco.github.io/swift-composable-architecture/main/documentation/composablearchitecture/gettingstarted)
+
+## Prompts
 MS Copilot
 
---------------------------- PROMPT
+--------------------------- 
+PROMPT
+
+```
 You will act as an expert Swift developer specializing in The Composable Architecture (TCA) pattern - https://github.com/pointfreeco/swift-composable-architecture 
 
 I need you to write Swift code for a SwiftUI feature using TCA that includes:
@@ -25,10 +32,12 @@ Ensure that:
 * You provide comments to explain each part of the architecture.
 * The code is concise, avoiding unnecessary complexity.
 * Do not include unit tests in the code. Return the complete code as a single file that can be copied directly and run in an existing XCode project
+```
 
 ---- Second prompt
-
+```
 Can you modify the code to put the reducer functionality inside a struct called TopicInputFeature
+```
 
 ---- RESULT
 
@@ -38,9 +47,3 @@ Included Main App Entry point
 Compiled Immediately? - NO
 * Build Errors - 14
 Compiled after tweaks - No
-
-
-
-
-
-

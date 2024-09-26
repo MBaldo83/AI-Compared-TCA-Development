@@ -1,7 +1,11 @@
-Cursor IDE
+## Setup 
+You need to Add The Composable Architecture as a dependency see [Getting Started](https://pointfreeco.github.io/swift-composable-architecture/main/documentation/composablearchitecture/gettingstarted)
 
---------------------------- Prompt 1
+## Prompts
 
+### Attempt 1
+
+```
 I need you to write Swift code for a SwiftUI feature using The Composable Architecture (TCA) pattern - https://github.com/pointfreeco/swift-composable-architecture that includes:
 * A TextField where the user can input a topic.
 * A Button that, when tapped, triggers an action to load questions related to the entered topic.
@@ -25,6 +29,7 @@ Ensure that:
 * You provide comments to explain each part of the architecture.
 * The code is concise, avoiding unnecessary complexity.
 * Do not include unit tests in the code. Return the complete code as a single file that can be copied directly and run in an existing XCode project
+```
 
 ---- RESULT - Claude Sonnet 3.5
 
@@ -42,10 +47,23 @@ Compiled Immediately? - NO
 * Build Errors - 13
 Compiled after tweaks - No
 
---------------------------- Prompt 2
+### Attempt 2
 
-Using The Composable Architecture (TCA) pattern - https://github.com/pointfreeco/swift-composable-architecture
-I want you to write SwiftUI View called TopicInputView that includes:
-* A TextField where the user can input a topic.
-* A Button that, when tapped, triggers an action to load questions related to the entered topic.
+Prompt: Same as before
 
+-- Output
+Single File
+Compiled Immediately? - Yes
+* Build Errors - 0
+
+## Setup
+
+Tools used:
+- Cursor AI Version: 0.41.2
+  - LLM: claude-3.5-sonnet
+- VSCode Version: 1.91.1
+- Xcode 15.4
+- iOS 17.5
+
+Time taken to complete app: 
+Number of build errors during process: 

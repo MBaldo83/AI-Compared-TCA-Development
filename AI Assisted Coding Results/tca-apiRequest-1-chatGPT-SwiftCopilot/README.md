@@ -1,16 +1,18 @@
+## Setup 
+You need to Add The Composable Architecture as a dependency see [Getting Started](https://pointfreeco.github.io/swift-composable-architecture/main/documentation/composablearchitecture/gettingstarted)
 
+## Prompts
 Chat 1 - Swift Copilot - by Widenex
 
+
+```
 Requirement: Create a Swift UI view that has one text field to enter a topic, and one button to load questions using the text input by the user.
 Architecture Pattern: The Composable Architecture - https://github.com/pointfreeco/swift-composable-architecture
+```
 
--- Output
-Multiple code blocks
-Compiled? - No
-Build Errors - 15
+Errors
 
--- Errors
-
+```
 Showing Recent Issues
 
 /Users/michaelbaldock/Software/local_tests/tca-apiRequest-chatGPT-SwiftCopilot/tca-apiRequest-chatGPT-SwiftCopilot/ContentView.swift:29:37: error: generic type 'Effect' specialized with too many type parameters (got 2, but expected 1)
@@ -71,6 +73,15 @@ let questionLoaderReducer = Reducer<QuestionLoaderState, QuestionLoaderAction, Q
 
 /Users/michaelbaldock/Software/local_tests/tca-apiRequest-chatGPT-SwiftCopilot/tca-apiRequest-chatGPT-SwiftCopilot/ContentView.swift:120:5: Cannot find 'ContentView' in scope
 
-
-
 Build failed    12/09/2024, 09:09    4.4 seconds
+
+```
+---
+# Result
+
+Output
+Multiple code blocks
+Compiled? - No
+Build Errors - 15
+
+----

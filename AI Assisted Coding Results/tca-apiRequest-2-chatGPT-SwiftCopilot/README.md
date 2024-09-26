@@ -1,5 +1,11 @@
+## Setup 
+You need to Add The Composable Architecture as a dependency see [Getting Started](https://pointfreeco.github.io/swift-composable-architecture/main/documentation/composablearchitecture/gettingstarted)
+
+## Prompts
+
 Chat 2 - Swift Copilot - by Widenex
----
+
+```
 As a Principle iOS Engineer I want you to write functional Swift code that compiles.
 
 Architecture Pattern: The Composable Architecture - https://github.com/pointfreeco/swift-composable-architecture
@@ -12,6 +18,7 @@ Requirements:
 Assumptions: Assume I already have an XCode project created and that I have already imported The Composable Architecture dependency in my project
 
 Output: Ensure that the code is output as a single file, and that the code will compile when copied into Xcode
+```
 
 ---- RESULT
 
